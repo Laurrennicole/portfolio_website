@@ -1,0 +1,48 @@
+/*
+Colors used:
+Primary Color (neutral background): #e9e3d2;
+Secondary Color (light green): #959d7d;
+Support Colors (dark green): #53644b
+              (mustard): #e6bc66
+*/
+
+body {
+  background-color: #e9e3d2;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #222222;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.75em;
+  font-weight: 700
+  font-style: italic;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.75em;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.75em;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #53644b;
+  text-decoration: none; /* No underlining */
+}
+a:hover {
+  color: #959d7d;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
