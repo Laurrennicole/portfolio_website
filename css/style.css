@@ -18,19 +18,26 @@ body {
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 2.75em;
-  font-weight: 700
+  font-weight: 700;
   font-style: italic;
 }
 
 h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 2.75em;
-  font-weight: 400;
+  font-size: 2em;
+  font-weight: 600;
+
 }
 
-h3 {
+h4 {
   font-family: 'Playfair Display', serif;
-  font-size: 2.75em;
+  font-size: 1.75em;
+  font-weight: 300;
+}
+
+h5 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.50em;
   font-weight: 300;
 }
 
@@ -38,11 +45,69 @@ img {
   width: 100%;
 }
 
+/* NAVIGATION LIST */
+
 a {
   color: #53644b;
   text-decoration: none; /* No underlining */
 }
 a:hover {
   color: #959d7d;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: none; /* Underlining when hovering over a link */
+}
+
+a:active {
+  color: #000000;
+  text-decoration: none; /* Underlining when hovering over a link */
+}
+
+
+/* VIEW PROJECT BUTTON*/
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #53644b;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 6px;
+  border-bottom: 4px solid #30382E; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  color: #30382E;
+  opacity: 0.5; /* Reduces the opacity of the button to 80% */
+  border-bottom: 3px solid #30382E;
+}
+
+.button:active {
+  background-color: #30382E;
+  color: #000000;
+  border-bottom: 0px solid #C68B1D;
+}
+
+/* EMAIL ME BUTTON */
+
+.button.contact {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #e6bc66;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 6px;
+  border-bottom: 4px solid #C68B1D; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button.contact:hover {
+  background-color: #e6bc66;
+  color: #C68B1D;
+  border-bottom: 3px solid #C68B1D;
+}
+
+.button.contact:active {
+  background-color: #C68B1D;
+  color: #000000;
+  border-bottom: 0px solid #C68B1D;
 }
