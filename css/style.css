@@ -8,10 +8,18 @@ Support Colors (dark green): #53644b
 
 header {
   background-color: #959d7d;
-  padding: 10px;
-  margin: 10px 0px 10px 0px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   border-top: 3px solid #53644b;
   border-bottom: 3px solid #53644b;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.7);
+  -moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.7);
+  box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.7);
+  position: fixed
+  width: 100%;
 }
 
 * {
@@ -25,6 +33,10 @@ body {
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #222222;
+}
+
+main {
+  padding-top: 133px;
 }
 
 h1 {
@@ -76,7 +88,7 @@ a:active {
   font-weight: 400;
   padding: 10px;
   border-radius: 6px;
-  border-bottom: 4px solid #30382E; /* width of the border, type, color */
+  border-bottom: 3px solid #30382E; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
@@ -89,7 +101,7 @@ a:active {
 .button:active {
   background-color: #30382E;
   color: #000000;
-  border-bottom: 0px solid #C68B1D;
+  border-bottom: 3px solid #C68B1D;
 }
 
 /* EMAIL ME BUTTON */
@@ -101,7 +113,7 @@ a:active {
   font-weight: 400;
   padding: 10px;
   border-radius: 6px;
-  border-bottom: 4px solid #C68B1D; /* width of the border, type, color */
+  border-bottom: 3px solid #C68B1D; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
@@ -114,11 +126,15 @@ a:active {
 .button.contact:active {
   background-color: #C68B1D;
   color: #000000;
-  border-bottom: 0px solid #C68B1D;
+  border-bottom: 3px solid #C68B1D;
 }
 
 .align-right {
   text-align: right;
+}
+
+.align-center {
+  text-align: center;
 }
 
 /* LAYOUT STYLING */
@@ -133,4 +149,48 @@ a:active {
 
 #hero h1 {
   text-align: center; /* Centers text */
+}
+
+#hero {
+  background-color: #959d7d;
+}
+
+#hero {
+  background-color: #959d7d;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+/* NAVIGATION */
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+  Width: 100%;
+}
+
+.social {
+  width: 40px;
+  display: inline-block;
+  padding: 0px;
+}
+
+#contact {
+
 }
