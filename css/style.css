@@ -141,8 +141,15 @@ a:active {
   padding: 0 20px;
 }
 
+
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
 }
 
 #hero h1 {
@@ -150,14 +157,19 @@ a:active {
 }
 
 #hero {
+  text-align: center;
   background-color: #959d7d;
 }
 
 #hero {
-  background-color: #959d7d;
+  background-color: ##D9D1B9;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+}
+
+#hero span {
+  display: block;
 }
 
 .logo {
@@ -193,5 +205,95 @@ nav > ul > li > a {
 }
 
 #contact {
+}
 
+ @keyframes {
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+ }
+
+ @keyframes color-change {
+   from {fill: #edc655;}
+   to {fill: #f76414;}
+ }
+
+ .sun {
+   animation-duration: 4s;
+   animation-name: color-change;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: linear;
+ }
+
+ @keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+  float: left;
+  padding: 10px;
+  }
+
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+
+  .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
 }
