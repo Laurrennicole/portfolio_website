@@ -300,8 +300,21 @@ X-large devices (1440px or larger)
 @media only screen and (min-width: 1440px) {
 }
 
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 }
