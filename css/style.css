@@ -285,11 +285,11 @@ Large devices (1024px or larger)
     margin-right: auto;
 }
   .col-lg-5 {
-    width: 50%;
+    width: 60%;
 }
 
   .col-lg-7 {
-    width: 50%;
+    width: 40%;
 }
 
 }
