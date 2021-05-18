@@ -182,10 +182,6 @@ nav > ul {
   padding: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
-
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -256,11 +252,23 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
+  .logo {
+    min-width: 641px;
+  }
+
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
   }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: none;
+}
 
   .col-md-6 {
     width: 50%;
@@ -303,6 +311,7 @@ X-large devices (1440px or larger)
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
 }
 
 /* ==============================
