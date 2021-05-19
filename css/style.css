@@ -253,6 +253,15 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+  float: left;
+  padding: 10px;
+  }
+
   .logo {
     min-width: 641px;
   }
@@ -265,30 +274,24 @@ Medium devices (640px and larger)
 
   nav > ul > li {
     display: inline-block;
-    min-width: 641px
+    min-width: 641px;
   }
 
   .navtoggle li:not(:last-child) {
-    display: none;
+  display: none;
   }
 
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
+  .navtoggle, .navtoggle.responsive {
+  position: relative;
   }
 
-  .navtoggle li:last-child {
-    display: none;
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
   }
-
-  .col-md-6 {
-    width: 50%;
-  }
-
-  [class*="col-"] {
-  float: left;
-  padding: 10px;
-  }
-
 }
 
 /* ==============================
@@ -330,6 +333,4 @@ Extra-large devices (1920px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-}
-
 }
