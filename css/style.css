@@ -248,9 +248,10 @@ nav > ul > li > a {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-/* ==============================
-Medium devices (640px and larger)
-================================= */
+/* --------------------------------------- MEDIA QUIERIES ---------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/*------------------------------------------------------------------------------------------------ */
+/* ==============================Medium devices (640px and larger)================================= */
 @media only screen and (min-width: 641px) {
   header {
     text-align: unset;
@@ -264,6 +265,10 @@ Medium devices (640px and larger)
   [class*="col-"] {
   float: left;
   padding: 10px;
+  }
+
+  .logo {
+    min-width: 641px;
   }
 
   nav {
@@ -298,9 +303,7 @@ Medium devices (640px and larger)
   }
 }
 
-/* ==============================
-Large devices (1024px or larger)
-================================= */
+/* ============================== Large devices (1024px or larger)================================= */
 @media only screen and (min-width: 1024px) {
 
   .container {
@@ -320,9 +323,7 @@ Large devices (1024px or larger)
   min-width: 641px;
 }
 
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
+/* ==============================X-large devices (1440px or larger)================================= */
 @media only screen and (min-width: 1440px) {
 }
 
@@ -336,9 +337,7 @@ X-large devices (1440px or larger)
   min-width: 641px;
 }
 
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
+/* ==============================Extra-large devices (1920px or larger)================================= */
 @media only screen and (min-width: 1920px) {
 
   .container {
