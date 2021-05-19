@@ -266,17 +266,17 @@ Medium devices (640px and larger)
     display: inline-block;
   }
 
+    .navtoggle li:not(:last-child) {
+    display: none;
+  }
+
   .navtoggle li:not(:last-child) {
-  display: none;
-}
+    display: inline-block;
+  }
 
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
-
-.navtoggle li:last-child {
-  display: none;
-}
+  .navtoggle li:last-child {
+    display: none;
+  }
 
   .col-md-6 {
     width: 50%;
