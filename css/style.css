@@ -63,7 +63,7 @@ img {
   width: 100%;
 }
 
-/* NAVIGATION LIST */
+/*------------------------ NAVIGATION LIST ------------------------*/
 
 a {
   color: #53644b;
@@ -81,7 +81,7 @@ a:active {
 }
 
 
-/* VIEW PROJECT & RESUME BUTTON*/
+/*------------------------ VIEW PROJECT & RESUME BUTTON ------------------------*/
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -106,7 +106,7 @@ a:active {
   border-bottom: 3px solid #C68B1D;
 }
 
-/* EMAIL ME BUTTON */
+/*------------------------ EMAIL ME BUTTON ------------------------*/
 
 .button.contact {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -139,7 +139,7 @@ a:active {
   text-align: center;
 }
 
-/* LAYOUT STYLING */
+/*------------------------ LAYOUT STYLING ------------------------*/
 
 .container {
   padding: 0 20px;
@@ -180,7 +180,7 @@ display: table;
   max-width: 150px;
 }
 
-/* NAVIGATION */
+/*------------------------ NAVIGATION ------------------------*/
 
 nav > ul {
   list-style-type: none;
@@ -251,6 +251,7 @@ nav > ul > li > a {
 /* --------------------------------------- MEDIA QUIERIES ---------------------------------------- */
 /* ----------------------------------------------------------------------------------------------- */
 /*------------------------------------------------------------------------------------------------ */
+
 /* ==============================Medium devices (640px and larger)================================= */
 @media only screen and (min-width: 641px) {
   header {
