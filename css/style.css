@@ -56,7 +56,7 @@ h4 {
 }
 
 .logo {
-  min-width: 150px;
+  max-width: 150px;
 }
 
 img {
@@ -81,7 +81,7 @@ a:active {
 }
 
 
-/*------------------------ VIEW PROJECT & RESUME BUTTON ------------------------*/
+/*----------------------- VIEW PROJECT & RESUME BUTTON ------------------------*/
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -266,10 +266,6 @@ nav > ul > li > a {
   [class*="col-"] {
   float: left;
   padding: 10px;
-  }
-
-  .logo {
-    min-width: 641px;
   }
 
   nav {
