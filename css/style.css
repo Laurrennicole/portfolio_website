@@ -65,6 +65,7 @@ a {
   color: #53644b;
   text-decoration: none; /* No underlining */
 }
+
 a:hover {
   color: #e6bc66;
   text-decoration: none; /* Underlining when hovering over a link */
@@ -264,9 +265,10 @@ Medium devices (640px and larger)
 
   nav > ul > li {
     display: inline-block;
+    min-width: 641px
   }
 
-    .navtoggle li:not(:last-child) {
+  .navtoggle li:not(:last-child) {
     display: none;
   }
 
@@ -307,8 +309,6 @@ Large devices (1024px or larger)
     width: 40%;
 }
 
-}
-
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
@@ -319,7 +319,6 @@ X-large devices (1440px or larger)
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-}
 }
 
 /* ==============================
