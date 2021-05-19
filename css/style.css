@@ -244,6 +244,27 @@ nav > ul > li > a {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+.navtoggle li:not(:last-child) {
+display: inline-block;
+}
+
+.navtoggle, .navtoggle.responsive {
+position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
 /* --------------------------------------- MEDIA QUIERIES ---------------------------------------- */
 /* ----------------------------------------------------------------------------------------------- */
 /*------------------------------------------------------------------------------------------------ */
@@ -270,6 +291,10 @@ nav > ul > li > a {
     margin-top: 4px;
   }
 
+  nav > ul {
+    margin: 1em 0;
+  }
+
   nav > ul > li {
     display: inline-block;
     min-width: 641px;
@@ -283,18 +308,6 @@ nav > ul > li > a {
     display: none;
   }
 
-  .navtoggle, .navtoggle.responsive {
-  position: relative;
-  }
-
-  .navtoggle li .icon {
-    position: absolute;
-    right: 0;
-    top: 2px;
-    font-size: 20px;
-    padding-right: 0;
-  }
-}
 
 /* ============================== Large devices (1024px or larger)================================= */
 @media only screen and (min-width: 1024px) {
