@@ -244,7 +244,7 @@ nav > ul > li > a {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-.navtoggle li:not(:last-child) {
+.navtoggle li:not(:last-child) {  
 display: inline-block;
 }
 
