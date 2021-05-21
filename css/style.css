@@ -57,6 +57,7 @@ h4 {
 
 img {
   width: 100%;
+  padding: 0;
 }
 
   .aboutpic {
@@ -177,7 +178,7 @@ display: table;
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 100px;
 }
 
 /*------------------------ NAVIGATION ------------------------*/
@@ -249,7 +250,7 @@ nav > ul > li > a {
 }
 
 .navtoggle li:not(:last-child) {
-display: inline-block;
+display: none;
 }
 
 .navtoggle, .navtoggle.responsive {
@@ -309,7 +310,7 @@ position: relative;
   }
 
   .logo {
-    max-width: 200px
+    max-width: 200px;
   }
 
 }
