@@ -298,7 +298,6 @@ position: relative;
 
   nav > ul > li {
     display: inline-block;
-    min-width: 641px;
   }
 
   .navtoggle li:not(:last-child) {
@@ -307,6 +306,10 @@ position: relative;
 
   .navtoggle li:last-child {
     display: none;
+  }
+
+  .logo {
+    max-width: 200px
   }
 
 }
@@ -326,9 +329,6 @@ position: relative;
     width: 40%;
 }
 
-.logo {
-  min-width: 641px;
-}
 
 /* ==============================X-large devices (1440px or larger)================================= */
 @media only screen and (min-width: 1440px) {
@@ -340,9 +340,6 @@ position: relative;
   margin-right: auto;
 }
 
-.logo {
-  min-width: 641px;
-}
 
 /* ==============================Extra-large devices (1920px or larger)================================= */
 @media only screen and (min-width: 1920px) {
@@ -351,8 +348,4 @@ position: relative;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.logo {
-  min-width: 641px;
 }
