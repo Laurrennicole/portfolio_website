@@ -33,7 +33,7 @@ body {
 }
 
 main {
-  padding-top: 240px;
+  padding-top: 56px;
 }
 
 h1 {
@@ -58,6 +58,7 @@ h4 {
 img {
   width: 100%;
   padding: 0;
+  margin: 0;
 }
 
   .aboutpic {
@@ -179,6 +180,8 @@ display: table;
 
 .logo {
   max-width: 100px;
+  padding: 0;
+  margin: 0;
 }
 
 /*------------------------ NAVIGATION ------------------------*/
@@ -260,7 +263,7 @@ position: relative;
 .navtoggle li .icon {
   position: absolute;
   right: 0px;
-  top: 2px;
+  top: 25px;
   font-size: 20px;
   padding-right: 0;
 }
