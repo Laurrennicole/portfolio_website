@@ -65,6 +65,8 @@ img {
     width: 300px;
   }
 
+
+
 /*------------------------ NAVIGATION LIST ------------------------*/
 
 a {
@@ -141,6 +143,8 @@ a:active {
   text-align: center;
 }
 
+
+
 /*------------------------ LAYOUT STYLING ------------------------*/
 
 .container {
@@ -209,6 +213,7 @@ nav > ul > li > a {
 }
 
 #contact {
+  margin: 50px 0;
 }
 
  .berlin-illustration {
