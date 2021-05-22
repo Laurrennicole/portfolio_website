@@ -63,7 +63,6 @@ img {
 
   .aboutpic {
     width: 300px;
-    position: center;
   }
 
 /*------------------------ NAVIGATION LIST ------------------------*/
@@ -272,6 +271,7 @@ position: relative;
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
+  text-align: center;
 }
 
 .navtoggle.responsive nav {
