@@ -275,7 +275,7 @@ position: relative;
 }
 
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 0;
 }
 
 .navtoggle.responsive li:last-child  {
@@ -305,7 +305,7 @@ position: relative;
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    margin-top: 70px;
   }
 
   nav > ul {
@@ -327,8 +327,8 @@ position: relative;
   .logo {
     max-width: 200px;
   }
-
 }
+
 /* ============================== Large devices (1024px or larger)================================= */
 @media only screen and (min-width: 1024px) {
 
@@ -344,18 +344,18 @@ position: relative;
   .col-lg-7 {
     width: 40%;
 }
-
+}
 
 /* ==============================X-large devices (1440px or larger)================================= */
 @media only screen and (min-width: 1440px) {
-}
+
 
 .container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
-
+}
 
 /* ==============================Extra-large devices (1920px or larger)================================= */
 @media only screen and (min-width: 1920px) {
@@ -364,4 +364,5 @@ position: relative;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
 }
