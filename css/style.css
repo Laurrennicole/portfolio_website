@@ -61,9 +61,15 @@ img {
   margin: 0;
 }
 
-  .aboutpic {
+.aboutpic {
     width: 300px;
   }
+
+.container2 {
+  margin: 30px;
+  text-align: center;
+
+}
 
 
 
@@ -109,6 +115,7 @@ a:active {
   color: #000000;
   border-bottom: 3px solid #C68B1D;
 }
+
 
 /*------------------------ EMAIL ME BUTTON ------------------------*/
 
@@ -339,6 +346,7 @@ position: relative;
     display: inline-block;
     width: 100%;
   }
+
 }
 
 /* ============================== Large devices (1024px or larger)================================= */
