@@ -20,27 +20,27 @@
 
 <!-- LOGO -->
 
-  <header>
-    <div class="container">
-      <div class="logo">
+<header>
+  <div class="container">
+    <div class="navtoggle" id="myNavtoggle">
         <picture>
           <source srcset="img/my_logo/name_nlogo@1x.jpg" media="(max-width:767px)">
-          <img src="img/my_logo/name_nlogo@2x.jpg" alt="Laurens logo">
+          <img src="img/my_logo/name_nlogo@2x.jpg" class="logo" alt="Laurens logo">
         </picture>
-      </div>
-    </div>
 
 <!-- NAVIGATION -->
 
-    <nav>
-      <ul class="navigation">
-        <li><a href="index.html">Work</a></li>
-        <li><a href="about.html" target="_blank">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
-      </ul>
-    </nav>
-  </header>
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html" target="_blank">About</a></li>
+          <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
 
 <main>
   <div>
