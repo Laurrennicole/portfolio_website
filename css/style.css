@@ -68,14 +68,13 @@ img {
   }
 
 .container2 {
-  margin: 30px;
+  margin: 50px;
   text-align: center;
 }
 
 footer .col-12 {
   width: 100%
 }
-
 
 
 
@@ -150,6 +149,7 @@ a:active {
 
 .align-right {
   text-align: right;
+  padding: 20px 0 20px 0;
 }
 
 .align-center {
@@ -311,7 +311,7 @@ position: relative;
   }
 
  main {
-   padding-top: 170px;
+   padding-top: 140px;
  }
 
   .col-md-6 {
