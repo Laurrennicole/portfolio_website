@@ -81,6 +81,12 @@ footer .col-12 {
    text-align: center;
  }
 
+ .footer-box {
+   background-color: #D9D1B9;
+   display: inline-block;
+   width: 100%;
+ }
+
 
 
 
@@ -369,6 +375,12 @@ position: relative;
 
   h1 {
     margin: 60px 0 50px 0;
+  }
+
+  .footer-box {
+    background-color: #D9D1B9;
+    display: inline-block;
+    width: 100%;
   }
 }
 
